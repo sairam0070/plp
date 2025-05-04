@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductCard from './productcard';
+import ProductCard from '../components/ProductCard';
 import styles from '../styles/productsgrid.module.css';
 import { useProductContext } from '../context/ProductsContext';
 
