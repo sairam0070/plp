@@ -1,10 +1,12 @@
 import React from 'react';
 import { ProductProvider } from './context/ProductsContext';
 import SearchBar from './components/SearchBar';
-import ProductsGrid from './components/productsgrid';
+
+
 import Pagination from './components/Pagination';
 import SideBar from './components/SideBar';
 import './App.css';
+import ProductsGrid from './components/ProductsGrid';
 
 function App() {
   return (
