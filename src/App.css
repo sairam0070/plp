@@ -1,0 +1,28 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+
+}
+
+.product-listing {
+  width: 75%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
