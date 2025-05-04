@@ -1,6 +1,5 @@
 import React, { createContext, useContext, useState ,useEffect} from 'react';
-import data from '../data/products'; // Assuming your product data has category and price properties
-
+import data from '../data/products'; 
 const ProductContext = createContext();
 
 export const ProductProvider = ({ children }) => {
